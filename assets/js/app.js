@@ -111,7 +111,7 @@ let header = $(`
 // Footer
 
 let footer = $(`
-<footer class="footer sticky-bottom"  style="background-color:#2b2a2a;">
+<footer class="footer sticky-bottom"  style="background-color:#B9DA2A;">
   <div class="p-4">
     <div class="container-fluid quote-container">
       <div class="quotes"    style="text-align:center;">
