@@ -119,10 +119,10 @@ let footer = $(`
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.5em" height="1.5em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M7 21a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2L7 13a4 4 0 1 1 0 8zm10 0a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2l-2 10a4 4 0 1 1 0 8z" fill="#fff" fill-rule="evenodd"/></svg>
       </div>
       <p class="tag" >Always strive for clean and maintainable code in web development.</p>
-      <p>Cultivate a user-centric approach in web development.</p>
-      <p>Communicate effectively and collaborate closely with clients throughout the web development process.</p>
-      <p>Strive for exceptional attention to detail in every aspect of web development.</p>
-      <p>Prioritize continuous learning and staying updated with the latest web technologies and trends</p>
+      <p class="tag">Cultivate a user-centric approach in web development.</p>
+      <p class="tag">Communicate effectively and collaborate closely with clients throughout the web development process.</p>
+      <p class="tag">Strive for exceptional attention to detail in every aspect of web development.</p>
+      <p class="tag">Prioritize continuous learning and staying updated with the latest web technologies and trends</p>
     </div>
 
     
