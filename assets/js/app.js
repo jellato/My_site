@@ -338,8 +338,8 @@ window.addEventListener("storage", function () {
 $(window).on("load", function () {
   setTimeout(function () {
     $(".no-scroll-preload").css("overflow", "visible");
-  }, 1000);
-  $(".loader-container").fadeOut(2500);
+  }, 200);
+  $(".loader-container").fadeOut(300);
 });
 
 //send button animation

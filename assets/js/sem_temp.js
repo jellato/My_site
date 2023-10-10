@@ -203,7 +203,7 @@ $(window).on("load", function () {
   setTimeout(function () {
     $(".no-scroll-preload").css("overflow", "hidden");
   }, 200);
-  $(".loader-container").fadeOut(200);
+  $(".loader-container").fadeOut(300);
 });
 
 /* Semester Recap Page Content */
