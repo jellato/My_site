@@ -521,8 +521,8 @@ html[light-mode="light"] .navbar-brand:hover{
 
 .tag {
   font-family: "Poppins", sans-serif;
-  font: size 20px;
-  line-height: 26px;
+  font: size 25px;
+  line-height: 10px;
   text-align: center;
   color: #fff;
   height: 78px;
