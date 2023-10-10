@@ -202,8 +202,8 @@ window.addEventListener("storage", function () {
 $(window).on("load", function () {
   setTimeout(function () {
     $(".no-scroll-preload").css("overflow", "hidden");
-  }, 1000);
-  $(".loader-container").fadeOut(2500);
+  }, 500);
+  $(".loader-container").fadeOut(500);
 });
 
 /* Semester Recap Page Content */
