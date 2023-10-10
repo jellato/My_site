@@ -525,7 +525,7 @@ html[light-mode="light"] .navbar-brand:hover{
   line-height: 30px;
   text-align: center;
   color: #fff;
-  height: 30px;
+  height: auto;
   margin: 5px auto 0px;
   display: block;
   box-sizing: border-box;
