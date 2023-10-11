@@ -16,7 +16,7 @@ const exp = [
     cardImage: "assets/images/experience-page/reaktor.jpg",
     place: "Reaktor",
     time: "(Mar, 2018 - Apr, 2022)",
-    desp: "<li>Developed and launched a new Android application that increased user engagement by 50% and generated $250,000 in new revenue within the first six months of release</li><li>Overcame technical challenges related to integrating complex third-party APIs, and collaborated effectively with cross-functional teams to ensure project success</li><li>Implemented new features and functionality in a large scale Android application using Flutter, resulting in improved performance and stability. Streamlined the development process by creating custom widgets and reusable components, reducing development time by 20%.</li>Demonstrated strong problem-solving skills by identifying and fixing complex bugs in the application's codebase.<li></li>",
+    desp: "<li>Developed and launched a new Android application that increased user engagement by 50% and generated $250,000 in new revenue within the first six months of release</li><li>Overcame technical challenges related to integrating complex third-party APIs, and collaborated effectively with cross-functional teams to ensure project success</li><li>Implemented new features and functionality in a large scale Android application using Flutter, resulting in improved performance and stability. Streamlined the development process by creating custom widgets and reusable components, reducing development time by 20%.</li><li>Demonstrated strong problem-solving skills by identifying and fixing complex bugs in the application's codebase.</li>",
   },
   {
     title: "Software Engineer",
@@ -52,9 +52,9 @@ const showCards2 = () => {
               <span class="pre-heading">${place}</span><br>
               <span class="author">${time}</span>
             </p>
-            <ol>
+            <ul>
               ${desp}
-            </ol>
+            </ul>
           </header>
         </article>
       </div>
