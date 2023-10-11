@@ -5,26 +5,34 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Reputable Freelancer",
+    title: "International Client Experience, Reputable Freelancer",
     cardImage: "assets/images/experience-page/freelancer.jpg",
     place: "UPWORK",
     time: "(April, 2022 - present)",
-    desp: "<li></li>",
+    desp: "<li>Collaborated with clients from diverse countries, including the United States, Canada, Germany, United Kingdom, France and Australia</li>",
   },
   {
-    title: "Software Developer",
-    cardImage: "assets/images/experience-page/infigo.jpg",
-    place: "INFIGO",
+    title: "Senior Developer, Android Developer",
+    cardImage: "assets/images/experience-page/reaktor.jpg",
+    place: "Reaktor",
     time: "(Mar, 2018 - Apr, 2022)",
-    desp: "<li>Developed an apartment management system that tracks costs and revenues along with loads of useful statistics for future investments.</li><li>Built a funeral planning system as a WordPress plugin that automates the process of collecting data from customers with a custom form with around 115 fields for the largest funeral bureau in Norway.</li><li>Developed an HR website that integrates with Recman API for listing all customer job offers for a recruiting company.</li><li>Created a product management system along with an eCommerce solution for an engraving technology company.</li>",
+    desp: "<li>Developed and launched a new Android application that increased user engagement by 50% and generated $250,000 in new revenue within the first six months of release</li><li>Overcame technical challenges related to integrating complex third-party APIs, and collaborated effectively with cross-functional teams to ensure project success</li><li>Implemented new features and functionality in a large scale Android application using Flutter, resulting in improved performance and stability. Streamlined the development process by creating custom widgets and reusable components, reducing development time by 20%.</li>Demonstrated strong problem-solving skills by identifying and fixing complex bugs in the application's codebase.<li></li>",
   },
   {
-    title: "Full Stack Developer",
-    cardImage: "assets/images/experience-page/polski.png",
-    place: "Wirtualna Polska",
-    time: "(Feb, 14 - Feb, 18)",
-    desp: "<li>Developed numerous special services according to specifications (WP framework, Zend Framework, Facebook Api / apps).</li><li>Tracked and fixed bugs using Jira as a reporting tool.Maintained documentation using Confluence Atlassian Documentation.</li><li>Worked in Agile methodology (Scrum) in a distributed environment (CVS).</li><li>Integrated data caching, query optimizations for scalability and performance for high traffic, and processing huge amounts of data.</li>",
+    title: "Software Engineer",
+    cardImage: "assets/images/experience-page/vincit.jpg",
+    place: "Vincit",
+    time: "(Feb, 16 - Feb, 18)",
+    desp: "<li>Created a peer-to-peer money transfer application.</li><li>Developed a service to take 25 web site screenshots per second.</li><li>Created a sandbox for using compilers with online IDEs.</li><li>Used a partial MySQL master-master replication to create two interfaces: one was public with public data and one was private in a bank network with private data.</li><li>Created a complex administrator panel for payment transaction monitoring.</li>",
   },
+  {
+    title: "Junior Developer",
+    cardImage: "assets/images/experience-page/futurice.png",
+    place: "Futurice",
+    time: "(Feb, 12 - Feb, 16)",
+    desp: "<li>Gained knowledge of the American health insurance system.</li><li>Contributed to the composition of up to 70% of the project's test coverage.</li><li>Tried several XMPP solutions and created a high-load solution with ejabberd.</li><li></li>Wrote a Cron-like daemon for RQ.<li>Collaborated with team members in an Agile/Scrum environment, which increased productivity.</li><li>Improved ability to communicate with clients in English.</li><li>Created docker-based development environment, which allows new and current developers quickly setup required project infrastructure.</li>",
+  },
+  
 ];
 
 const showCards2 = () => {
