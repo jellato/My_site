@@ -185,21 +185,21 @@ $(function () {
       origin: "right",
       distance: "300px",
       easing: "ease-in-out",
-      duration: 800,
+      duration: 400,
     });
   } else {
     sr.reveal(".js--fadeInLeft", {
       origin: "left",
       distance: "300px",
       easing: "ease-in-out",
-      duration: 800,
+      duration: 400,
     });
 
     sr.reveal(".js--fadeInRight", {
       origin: "right",
       distance: "300px",
       easing: "ease-in-out",
-      duration: 800,
+      duration: 400,
     });
   }
 
@@ -207,13 +207,13 @@ $(function () {
     origin: "left",
     distance: "300px",
     easing: "ease-in-out",
-    duration: 800,
+    duration: 400,
   });
 
   sr.reveal(".js--fadeInRight", {
     origin: "right",
     distance: "300px",
     easing: "ease-in-out",
-    duration: 800,
+    duration: 400,
   });
 });
